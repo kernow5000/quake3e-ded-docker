@@ -1,6 +1,7 @@
 as far as I got 
 
 docker build -t shaunb:q3ded .
+
 docker run -d -p 27960:27960/udp shaunb:q3ded
 
 assumes quake3 pak file location is whatever/quake3/baseq3
